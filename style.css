@@ -1,0 +1,137 @@
+/* Element pricipaux */
+
+body
+{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-width:2px;
+    border-style:dotted;
+    border-color:red;
+}
+
+/* navigation */
+
+header nav
+{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: blueviolet;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/* Application */
+
+header #navigationGmail
+{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    width: 55px;
+}
+
+header #Image
+{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 55px;
+}
+
+
+header #connection
+{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    background-color: #1a73e8;
+    color: #ffffff;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 150px ;
+    height: 40px;
+    font-size: 25px;
+}
+
+header #logoApplication
+{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: violet;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0;
+    width: 20px;
+    display:flex;
+    justify-content: center;
+
+    
+
+}
+/* Recherche Google */
+
+#pictureGoogle 
+{
+    height: 400px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: brown;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#pictureGoogle img
+{
+    width: 300px;
+}
+
+#recherche
+{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: grey;
+    height: 34px;
+    font-size: 20px;
+    margin-top:  5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 600px;
+    margin-left: 600px;
+    
+}
+
+/* FOOTER */
+
+
+section 
+{
+    height: 20px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: green;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+}
+
